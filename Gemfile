@@ -14,6 +14,7 @@ gem 'rest-client'
 gem 'dotenv'
 gem 'sass'
 gem 'sinatra-flash'
+gem 'pg'
 
 group :test do
   gem 'rspec'
@@ -25,8 +26,4 @@ end
 group :development, :test do
   gem 'pry'
   gem 'sqlite3'
-end
-
-group :production do
-  gem 'pg'
 end
